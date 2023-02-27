@@ -1,9 +1,9 @@
 {
-  "name": "chatgpt",
-  "version": "3.5.2",
+  "name": "chatgpt-browser",
+  "version": "3.5.4",
   "description": "Node.js client for the unofficial ChatGPT API.",
-  "author": "Travis Fischer <travis@transitivebullsh.it>",
-  "repository": "transitive-bullshit/chatgpt-api",
+  "author": "zjf-plus",
+  "repository": "zjf-plus/chatgpt-browser",
   "license": "MIT",
   "type": "module",
   "source": "./src/index.ts",
