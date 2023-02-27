@@ -336,10 +336,9 @@ export async function getBrowser(
   const puppeteerArgs = [
     // '--no-sandbox',
     // '--disable-setuid-sandbox',
-    '--disable-infobars',
+    // '--disable-infobars',
     '--disable-dev-shm-usage',
-    '--disable-blink-features=AutomationControlled',
-    '--ignore-certificate-errors',
+    // '--ignore-certificate-errors',
     '--no-first-run',
     '--no-service-autorun',
     '--password-store=basic',
