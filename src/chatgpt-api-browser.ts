@@ -457,6 +457,9 @@ export class ChatGPTAPIBrowser extends AChatGPTAPI {
       messages: [
         {
           id: messageId,
+          author: {
+            role: 'user'
+          },
           role: 'user',
           content: {
             content_type: 'text',

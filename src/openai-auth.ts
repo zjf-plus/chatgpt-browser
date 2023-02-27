@@ -334,8 +334,8 @@ export async function getBrowser(
 
   // https://peter.sh/experiments/chromium-command-line-switches/
   const puppeteerArgs = [
-    '--no-sandbox',
-    '--disable-setuid-sandbox',
+    // '--no-sandbox',
+    // '--disable-setuid-sandbox',
     '--disable-infobars',
     '--disable-dev-shm-usage',
     '--disable-blink-features=AutomationControlled',
