@@ -173,8 +173,13 @@ export type Prompt = {
    * The role played in the prompt
    */
   role: Role
+
+  author: author
 }
 
+export type author = {
+  role: Role
+}
 export type PromptContent = {
   /**
    * The content type of the prompt
