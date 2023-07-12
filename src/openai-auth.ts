@@ -213,7 +213,7 @@ export async function getOpenAIAuth({
         await page.waitForSelector('#password', { timeout: timeoutMs })
         await page.type('#password', password)
         await delay(200)
-        submitP = () => page.click('button[type="submit"]')
+        submitP = () => page.click('button._button-login-password');
       }
 
       await Promise.all([
